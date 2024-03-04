@@ -5,7 +5,14 @@ import { discount , robot } from '../assets/assets'
 const Hero = () => (
   <section id='home' className=' flex md:flex-row flex-col ${styles.paddingY}'>
       <div className={'flex-1 ${styles.flexStart} flex-col xl:px-0 sm:px-16 px-6'}>
-        <div className="flex-row  items-center py-[6px]  px-4 bg-disc">
+        <div className="flex-row  items-center py-[6px]  px-4 bg-discount-gradient rounded-[10px] mb-2">
+            <img src={discount} alt="discount" className='w-[32px] h-[32px]' />
+            <p className={' text-white ${styles.paragraph} ml-3'}>
+                <span className='text-white '>20% </span> 
+                 Discount for {""}
+                <span className='text-white '> 1 Month </span>
+                  Account
+            </p>
           
         </div>
       </div>
