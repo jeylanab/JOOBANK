@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../style'
 import { discount , robot } from '../assets/assets'
 import GetStarted from './GetStarted'
+import '../index.css'
 
 const Hero = () => (
   <section id='home' className=' flex md:flex-row flex-col ${styles.paddingY}'>
@@ -32,6 +33,13 @@ const Hero = () => (
            alias vel saepe est accusamus excepturi, labore velit ipsa nulla dolores cum repudiandae.
             Voluptatem, autem pariatur. Suscipit.
         </p>
+      </div>
+      <div>
+        <img src={robot} alt="billing" className='w-[100%] h-[100%] relative z-[5]' />
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'></div>
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'></div>
+        <div className='absolute z-[0] w-[40%] h-[35%] top-0 pink__gradient'></div>
+
       </div>
   </section>
 )
