@@ -28,7 +28,7 @@ const Hero = () => (
         <h1 className=' font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] w-full'>
             Payment Method.
         </h1>
-        <p className={'${styles.paragraph} max-w-[470px] mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis, sit obcaecati minus
+        <p className={'${styles.paragraph} text-white max-w-[470px] mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis, sit obcaecati minus
            alias vel saepe est accusamus excepturi, labore velit ipsa nulla dolores cum repudiandae.
             Voluptatem, autem pariatur. Suscipit.
         </p>
