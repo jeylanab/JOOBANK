@@ -19,13 +19,19 @@ const Hero = () => (
         <div className='flex flex-row justify-between items-center w-full '>
           <h1 className='flex-1 font-poppins font-semibold ss:text-[72px] text-[52px] text-white ss:leading-[100px]'>The Next <br className='sm:block hidden'/>  {" "}
           <span className='text-gradient'>Generation</span> {" "}
-           Payment Method.
+          
            </h1>
            <div className="ss:flex hidden md:mr-4 mr-0">
             <GetStarted/>
            </div>
         </div>
-
+        <h1 className=' font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] w-full'>
+            Payment Method.
+        </h1>
+        <p className={'${styles.paragraph} max-w-[470px] mt-5'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Blanditiis perspiciatis, sit obcaecati minus
+           alias vel saepe est accusamus excepturi, labore velit ipsa nulla dolores cum repudiandae.
+            Voluptatem, autem pariatur. Suscipit.
+        </p>
       </div>
   </section>
 )
