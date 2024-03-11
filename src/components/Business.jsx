@@ -17,6 +17,9 @@ const Business = () => {
                   possimus ipsa repellendus odio? Possimus ut exercitationem culpa porro.
                  Repudiandae eaque praesentium repellat quas
               </p>
+
+              <Button  styles = "mt-10" />
+              
           </div>
     </section>
   )
