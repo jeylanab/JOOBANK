@@ -23,8 +23,9 @@ const Navbar = () => {
             <a href={`#${nav.id}`}>{nav.title}</a>
           </li>
         ))}
+     
       </ul>
-
+ 
       <div className="sm:hidden flex flex-1 justify-end items-center">
         <img
           src={toggle ? close : menu}
@@ -50,8 +51,12 @@ const Navbar = () => {
                 <a href={`#${nav.id}`}>{nav.title}</a>
               </li>
             ))}
+            
           </ul>
         </div>
+      </div>
+      <div>
+        
       </div>
     </nav>
   );
